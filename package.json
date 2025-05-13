@@ -1,0 +1,44 @@
+{
+  "name": "octopusproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "bin": {
+    "octopusproject": "dist/index.js"
+  },
+  "engines": {
+    "node": ">=17.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "watch": "tsc --watch",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write .",
+    "link": "npm link",
+    "publish": "npm publish --access public"
+  },
+  "keywords": [
+    "cli",
+    "directory",
+    "octopusignore"
+  ],
+  "author": "OctopusOnline",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OctopusOnline/OctopusProject.git"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "ignore": "^5.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "eslint": "^8.57.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.2"
+  }
+}
