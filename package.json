@@ -1,6 +1,6 @@
 {
   "name": "octopusproject",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
   "bin": {
@@ -18,11 +18,6 @@
     "link": "npm link",
     "publish": "npm publish --access public"
   },
-  "keywords": [
-    "cli",
-    "directory",
-    "octopusignore"
-  ],
   "author": "OctopusOnline",
   "license": "MIT",
   "repository": {
